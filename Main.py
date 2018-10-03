@@ -2,7 +2,7 @@ import pygame, sys
 import Imagen
 from Imagen import *
 booleano = True
-ventana = pygame.display.set_mode((1280,720))
+ventana = pygame.display.set_mode((540,540))
 pygame.display.set_caption("ejemplo")
 imagen1 = pygame.image.load('imagen 3.png')
 imagen2 = pygame.image.load('imagen 2.png')
