@@ -8,8 +8,8 @@ class Imagen(pygame.sprite.Sprite):
         self.imagenes.append(imagen2)
         self.imagenes.append(imagen3)
         self.rect = self.imagen.get_rect()
-        self.posX = 0
-        self.posY =580
+        self.posX = 10
+        self.posY =430
         self.rect.move_ip(self.posX, self.posY)
         self.cte = 0
     def accion(self):
